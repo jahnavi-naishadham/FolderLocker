@@ -50,15 +50,7 @@ Note the lib folder path
 Add all JavaFX JAR files to your classpath
 
 
-5. ZIP4J Library Download
-
-Download ZIP4J 2.11.5 from Maven Central:
-
-https://repo1.maven.org/maven2/net/lingala/zip4j/zip4j/2.11.5/zip4j-2.11.5.jar
-
-Add zip4j-2.11.5.jar to the project classpath along with JavaFX libraries.
-
-6. How to Run the Project
+5. How to Run the Project
 Run from IDE (NetBeans / IntelliJ)
 
 Add JavaFX VM options:
@@ -79,7 +71,7 @@ java --module-path "path_to_javafx_lib" --add-modules javafx.controls,javafx.fxm
 Replace path_to_javafx_lib with the actual JavaFX lib folder path.
 
 
-7. Important Notes
+6. Important Notes
 
 This application works only on Windows
 
@@ -87,7 +79,7 @@ Administrator permissions are required for locking/unlocking folders
 
 Passwords are stored in .pass files for authentication
 
-8. Acknowledgement
+7. Acknowledgement
 
 Special thanks to CodeClause for providing this project during the internship.
 
